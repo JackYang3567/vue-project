@@ -1,8 +1,8 @@
 # vue-project
 ## 1、安装 webpack
-'''
+```
  npm install webpack webpack-cli -g
- '''
+ ```
  
  ## 2、安装 vue-cli
  '''

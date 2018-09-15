@@ -32,6 +32,10 @@
 
 
 # 二、vue-project for TypeScript
+
+- 编辑器 强烈建议您使用 Visual Studio Code
+https://github.com/Microsoft/TypeScript-Vue-Starter
+
 ## 1、安装 Vue CLI 3
 ```
 npm install --global @vue/cli
@@ -59,7 +63,7 @@ vue-waiter
 ## 4、安装依赖
 ```
 $ cd vue-waiter
-$ yarn add --dev typescript webpack ts-loader css-loader vue vue-loader vue-template-compiler
+$ yarn add --dev typescript webpack ts-loader css-loader vue vue-loader vue-template-compiler serve
 ```
 
 ## 5、添加TypeScript配置文件 tsconfig.json
@@ -162,15 +166,28 @@ if (process.env.NODE_ENV === 'production') {
   ])
 }
 ```
+## 7、添加生成脚本 
+在package.json文件中修改
+```
+"scripts": {
+    "dev": "webpack & node node_modules/serve/bin/serve"
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+```
+## 8、
 
 ## 6、运行项目
+```
+npm ru
+```
+- 在浏览器地址栏输入  http://localhost:5000/ 访问
 ```
 $ yarn serve
 ```
 - 在浏览器地址栏输入  http://localhost:8080/ 访问
-## 5、
 
-## 3、编辑器 强烈建议您使用 Visual Studio Code
+
 
 ## 4、TypeScript在Vue中基本用法
 

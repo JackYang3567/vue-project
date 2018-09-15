@@ -59,6 +59,7 @@ vue-waiter
 ## 4、运行项目
 ```
 $ cd vue-waiter
+$ yarn add --dev typescript webpack ts-loader css-loader vue vue-loader vue-template-compiler
 $ yarn serve
 ```
 - 在浏览器地址栏输入  http://localhost:8080/ 访问

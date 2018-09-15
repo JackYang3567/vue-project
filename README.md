@@ -39,7 +39,22 @@ npm install --global @vue/cli
 
 ## 2、创建新工程
 ```
-vue create my-project-name
+vue create vue-waiter
+? Please pick a preset: default (babel, eslint)
+? Pick the package manager to use when installing dependencies: Yarn
+
+$ cd vue-waiter
+$ yarn serve
+```
+## 3、工程目录结构
+ ```
+vue-waiter
+  babel.config.js
+  node_modules
+  package.json
+  public
+  src
+  yarn.lock
 ```
 
 ## 3、编辑器 强烈建议您使用 Visual Studio Code

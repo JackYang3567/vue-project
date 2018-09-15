@@ -1,4 +1,4 @@
-# vue-project
+# 一、vue-project for JavaScript
 ## 1、安装 webpack
 ```
  npm install webpack webpack-cli -g
@@ -29,3 +29,21 @@
  ```
  npm run build
 ```
+
+
+# 二、vue-project for TypeScript
+## 1、安装 Vue CLI 3
+```
+npm install --global @vue/cli
+```
+
+## 2、创建新工程
+```
+vue create my-project-name
+```
+
+## 3、编辑器 强烈建议您使用 Visual Studio Code
+
+## 4、TypeScript在Vue中基本用法
+
+

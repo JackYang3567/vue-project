@@ -234,7 +234,7 @@ export default Vue.extend({
 });
 
 ```
-## 9、运行项目完善index.ts
+## 9、完善index.ts
 ```
 // src/index.ts
 

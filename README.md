@@ -170,7 +170,7 @@ if (process.env.NODE_ENV === 'production') {
 在package.json文件中修改
 ```
 "scripts": {
-    "dev": "webpack & node node_modules/serve/bin/serve"
+     "dev": "webpack --watch & node node_modules/serve/bin/serve",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

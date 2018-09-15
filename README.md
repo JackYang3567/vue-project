@@ -56,6 +56,13 @@ vue-waiter
   src
   yarn.lock
 ```
+## 4、运行项目
+```
+$ cd vue-waiter
+$ yarn serve
+```
+- 在浏览器地址栏输入  http://localhost:8080/ 访问
+## 5、
 
 ## 3、编辑器 强烈建议您使用 Visual Studio Code
 

@@ -52,7 +52,7 @@ npm init
 ```
 ## 3、安装依赖
 ```
-$ yarn add --dev typescript webpack ts-loader css-loader vue vue-loader vue-template-compiler serve
+$ yarn add --dev typescript webpack ts-loader css-loader vue vue-router vue-loader vue-template-compiler serve
 ```
 
 ## 4、添加TypeScript配置文件 tsconfig.json

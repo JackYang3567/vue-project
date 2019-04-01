@@ -3,6 +3,12 @@
 ```
  npm install webpack webpack-cli -g
  ```
+ 或
+ Command vue init requires a global addon to be installed.
+  Please run yarn global add @vue/cli-init and try again.
+ ```
+ yarn global add @vue/cli-init
+ ```
  
  ## 2、安装 vue-cli
  ```
